@@ -1,0 +1,185 @@
+/* =================================temp===================  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.my_card_alumni_container{
+    border:solid yellow 2px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.my_alumni_container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+.slide-content{
+    margin: 0 40px;   
+    overflow: hidden;
+
+}
+
+.slide-container{
+    border: solid rgb(0, 255, 21) 3px;
+    height: 400px;
+    max-width: 1020px;
+    width: 70%;
+    padding:10px 0;
+}
+
+.card{
+
+    border: solid yellow 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:260px;
+    height: 370px;
+    padding:5px;
+    border-radius: 25px;
+    background-color: rgb(230, 201, 201); 
+    box-shadow: rgb(241, 237, 237) 0px 50px 100px -20px, rgba(78, 1, 1, 0.949) 0px 30px 60px -30px, rgb(59, 1, 1) 0px -2px 6px 0px inset;
+    transition: all 0.3s ease;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(142, 16, 16);
+    border-radius: 25px 25px 0 0;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width:40xp;
+    background-color:rgb(82, 220, 133);
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:4px solid rgb(121, 14, 14)
+}
+
+
+.button{
+    text-decoration: none;
+    margin-top: 1px;
+    border: none;
+    font-size: 16px;
+    color:white;
+    background-color: rgb(119, 16, 16);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-top: 2px;
+
+}
+.button:hover{
+    background-color: white;
+    color:rgb(110, 8, 8)
+}
+
+.swiper-pagination.bullet{
+    opacity: 1;
+}
+
+.swiper-navBtn2{
+    color:brown;
+    padding-left: 15px;
+}
+.swiper-navBtn1{
+    color:brown;
+    padding-right: 15px;
+}
+
+
+.name{
+    color:brown;
+
+    text-align: center;
+    margin: 4px;
+}
+.c_name{
+    text-align: center;
+
+    color: brown;
+    margin: 2px;
+}
+.batch{
+    text-align: center;
+    color: brown;
+    margin: 2px;
+}
+.branch{
+    text-align: center;
+    color: brown;
+    margin: 2px;
+}
+
+.my-fluid{
+
+    padding:10px;
+    height:fit-content;
+    margin: auto;
+    /*    border:solid red 2px;*/
+    width: 80%;
+    padding-top: 10px;
+} 
+
+.my-owl-class{    
+
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+} 
+
+.card{
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

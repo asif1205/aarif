@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Styling/card-styling.css">
+    <link rel="stylesheet" href="Styling/myStyling.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="shor icon" href="images/iesicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>IES Alumnies</title>
+
+</head>
+
+<body id="main-body">
+
+
+    <div class="container-fluid my-nav-first-div">
+        <nav class=" navbar navbar-expand-lg navbar-custom my-nav">
+            <img src="images/ieslogo.jpg" alt="IES Image" id="nav-logo-img">
+            <div id="nav-user"></div>
+            <button class="navbar-toggler" id="icon-btn" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto my-nav-btn">
+
+                    <li class="nav-item" id="nav-show-profile-id">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item" id="nav-add-notes-id">
+                        <a href="#alumniList" class="nav-link">Alumnies</a>
+                    </li>
+
+                    <li class="nav-item" id="login-logout">
+                        <a href="#contact" class="nav-link">Contack</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <main>
+        <div class="container-fluid sliding-images">
+            <div class="row">
+                <div class="col display-image">
+                    <img src="images/iesalluminai1.jpg" alt="images" id="images" data-toggle="popover">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid alumni-container">
+            <a id="alumniList"></a>
+            <div class="row">
+                 <div class="col">
+                    <marquee behavior="scroll" direction="left" scrollamount="15" id="sliding-alumni">IES University
+                        Alumnies!!</marquee>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="container-fluid">
+            <div class="row alumni-adding-searching-btn">
+                <div class="col-md-4 col-lg-3 alumni-first-btn">
+                    <select name="" class="form-select form-select-sm branches" id="branch-selecter">
+                        <option value="all" class="branches">All Branch</option>
+                        <option value="ex" class="branches">EX</option>
+                        <option value="ec" class="branches">EC</option>
+                        <option value="me" class="branches">ME</option>
+                        <option value="civil" class="branches">Civil</option>
+                        <option value="cse" class="branches">CSE</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-lg-3 alumni-second-btn">
+                    <button type="button" id="add-alumni-btn" onclick="searchAlumni()">Search</button>
+                </div>
+                <div class="col-md-4 col-lg-3 alumni-second-btn">
+                    <button type="button" id="add-alumni-btn" onclick="openForm()">Add New Alumni</button>
+                </div>
+                <div class="col-md-4 col-lg-3 alumni-second-btn" id="edit-alumni-id">
+                    <button type="button" id="add-alumni-btn" onclick="EditAlumni()">Edit Alumni</button>
+                </div>
+            </div>
+        </div>
+        <div class="myForm" id="inputform">
+
+        </div>
+        <div class="myForm" id="useridandpassword">
+
+        </div>
+        <!-- =================================alumni cards====================== -->
+
+
+
+
+        <div class="wrapper my-fluid">
+            <div class="carousel owl-carousel" id="alumniList-Id">
+
+
+
+            </div>
+            <!--                <div id="sliding-btn-id">
+                    <button class="custom-nav-prev pre-btn"><</button>
+                    <button class="custom-nav-next next-btn">></button>
+                </div>-->
+        </div>
+        <!-- ======================================alumni end================================== -->
+
+        <div class="container-fluid company-btn">
+            <a id="contact"></a>
+            <div class="row company-btn-row">
+                <div class="col company-btn-col">
+                    <div class="col add-company-btn">
+
+                        <div class="my-row1">
+
+                            <p id="footercontact">Contact information:</p>
+                            <div id="firstfooter">
+
+
+                                <div class="firstfooter1 firstfooter">
+                                    <img src="images/phoneicon.png" alt="" class="imgone contact-img-one">
+                                    <p class="footerpara"> : 8516064444 , 9229251422 , 9229251478 </p>
+                                </div>
+
+                                <div class="firstfooter1 firstfooter2">
+                                    <img src="images/email.png" alt="" class="imgone contact-img-two">
+                                    <p class="footerpara"> : Info@iescollege.qld.edu.au</p>
+                                </div>
+                            </div>
+                            <div id="secondfooter">
+                                <div class="footerimage">
+                                    <a href="https://www.facebook.com/IESUNIVERSITY/" class="facebookimg"
+                                        target="_blank"><img src="images/facebookcolorimg.png" alt="facebooklink"
+                                            class="img"></a>
+                                </div>
+                                <div class="footerimage">
+                                    <a href="https://twitter.com/IESuniversity" class="facebookimg" target="_blank"><img
+                                            src="images/twitercolor.jpg" alt="twitterlink" class="img"></a>
+                                </div>
+                                <div class="footerimage">
+                                    <a href="https://www.instagram.com/iesuniversity/" class="facebookimg"
+                                        target="_blank"><img src="images/instagram.jpg" alt="instagramlink" class="img"></a>
+                                </div>
+                                <div class="footerimage">
+                                    <a href="https://www.linkedin.com/company/ies-university-bhopal/"
+                                        class="facebookimg" target="_blank"><img src="images/linkedin.jpg" alt="linkedinlink"
+                                            class="img"></a>
+                                </div>
+                                <div class="footerimage">
+                                    <a href="https://www.youtube.com/channel/UCxHmsCpLGDA170oXSRNJiTw"
+                                        class="facebookimg" target="_blank"><img src="images/youtube.png" alt="youtubelink"
+                                            class="img"></a>
+                                </div>
+                                <div class="footerimage">
+                                    <a href="https://iescollege.com/get-in-touch/#:~:text=Email%3A%20info%40iescollege.qld.edu.au%20Phone%3A%20%2B61%20%287%29%203832-7699%20Address%3A,495%20Boundary%20Street%2C%20Spring%20Hill%20QLD%204004"
+                                        class="facebookimg" target="_blank"><img src="images/iesicon.png" alt="iescollegelink"
+                                            class="img"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="jsfile/behaviour.js"></script>
+    <script src="jsfile/jquery.js"></script>
+</body>
+
+</html>

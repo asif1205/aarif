@@ -1,0 +1,737 @@
+/* =========================================nav-bar================================================= */
+
+
+.my-nav-first-div{
+    margin-bottom: 10px;
+
+}
+
+.my-nav{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: brown;
+}
+
+
+.navbar-custom {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    background-color:#fff;
+    color:brown;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:20px ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    font-size: large;
+}
+#icon-btn{
+    margin-right: 10px;
+    background-color:#fff; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#icon-btn:hover{
+    border:solid #fff 1.5px;
+}
+
+
+.nav-icon{
+    padding:2px;
+    height: fit-content;
+}
+
+#nav-logo-img{
+    margin-left: 10px;
+    height: 100px;
+    width: 230px;
+    border-radius:5px; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#nav-user-img{
+    margin-left: 5px;
+    height: 50px;
+    width: 70px;
+    border-radius:50%; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.nav-icon-logo{
+    height: 25px;
+    margin-right: 2px;
+}
+
+
+#nav-user{
+    margin-left: 10px;
+    height: 100px;
+    width: fit-content;
+}
+
+.user-img{
+    display: flex;
+    height:70px;
+    width: 70px;  
+}
+#nav-user-img{
+
+    margin-left: -100px;
+    height: 70px;
+    width: 100px;
+    border-radius:50%; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.user-name{
+    width:fit-content;
+    margin: -15px;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    justify-content: center;
+    padding: 2px;
+
+}
+
+#navbarNav{
+    margin-top: 25px;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.my-nav-btn{    
+    float: right;
+}
+
+.nav-link{
+    width: 100%;
+    border: solid wheat 1px;
+}
+.nav-item{
+    margin: 3px;
+    margin-right: 15px;
+}
+
+
+/*====================================nav ended=============================*/
+
+#sliding-greetings{
+    font-size: 3vw;
+    color:white;
+    box-shadow: rgb(238, 238, 238) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* border:solid 1px wheat; */
+}
+
+.options-nav{
+    margin-top: .5vw;
+    /* border:solid wheat 2px; */
+    width:80%;
+    float:right;
+}
+
+.home-btn{
+    /* border:solid yellow 2px; */
+    margin:auto;
+
+}
+
+.sliding-images{
+    height: fit-content;
+}
+#images{
+    height: 43vw;
+    width: 100%;
+    box-shadow: rgb(78, 2, 2) 0px 50px 100px -20px, rgb(95, 3, 3) 0px 30px 60px -30px, rgb(86, 3, 3) 0px -2px 6px 0px inset;
+}
+
+#sliding-alumni{
+    margin-top:1vw;
+    font-size:3vw;
+    color:white;
+    background-color: brown;
+    box-shadow: rgb(78, 2, 2) 0px 50px 100px -20px, rgb(95, 3, 3) 0px 30px 60px -30px, rgb(86, 3, 3) 0px -2px 6px 0px inset;
+}
+
+.alumni-list{
+
+}
+
+
+#branch-selecter{
+    font-weight: bold;
+}
+
+.adding-option{
+
+    font-weight: bolder;
+}
+
+.select-alumni{
+    font-weight: border;
+}
+
+.alumni-first-btn{
+    margin-bottom: 5px;
+}
+.branches{
+    font-weight: bold;
+
+}
+.branches:hover{
+    background-color: brown;
+    color: #fff;
+}
+
+
+.alumni-second-btn{
+    margin-bottom: 5px;
+}
+.add-alumni-btn:hover{
+    background-color: brown;
+    color: #fff;
+}
+#branch-selecter:hover{
+    background-color: brown;
+    color: #fff;
+}
+
+.alumni-container{
+    margin-top: 4vw;
+}
+
+#add-alumni-btn{
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; */
+    border-radius: 5px;
+    border:solid rgb(203, 193, 193) 1px;
+    background-color: white;
+    padding: .2vw;
+    font-weight: bold;
+}
+
+.branches{
+    font-weight: bold;
+}
+
+#branch-selecter:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+
+#add-alumni-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    background-color: brown;
+    color: #fff;
+
+}
+
+
+
+.owl-carousel .owl-stage {
+    transition: all 0.5s ease;
+}
+
+/* Style the navigation buttons */
+.custom-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-nav button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/* Optionally style the buttons on hover or active state */
+.custom-nav button:hover {
+    background-color: #aaa;
+}
+
+.custom-nav button:active {
+    background-color: #888;
+}
+
+/*#sliding-btn-id{
+    justify-content: center;
+    text-align: center;
+}
+.pre-btn{
+    margin-right: 10px;
+    font-weight: bolder;
+    background-color:brown;
+    color:#fff;
+    border:solid brown 3px;
+    border-radius:50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.next-btn{
+    margin-left: 10px;
+    font-weight: bolder;
+    background-color:brown;
+    color:#fff;
+    border:solid brown 3px;
+    border-radius:50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+
+.pre-btn:hover{
+    font-weight: bolder;
+    border:solid #fff 2px;
+}
+
+.next-btn:hover{
+    font-weight: bolder;
+    border:solid #fff 2px;
+}*/
+/* ===========================alumni card==================== */
+
+/* ==============================alumni-end================================= */
+#add-company-btn{
+    width:100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: .2vw;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    font-weight: bold;
+    border:solid rgb(183, 174, 174) 1px;
+}
+
+#add-company-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+/*==========================================add alumni=================================*/
+
+#imageInput{
+    background-color: #fff;
+    color:black;
+}
+
+
+
+
+
+
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+.myForm{
+    pointer-events: auto;
+    color:white;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    background-color: rgb(133, 5, 5);
+    height: 480px;
+    width: 350px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: rgb(78, 2, 2) 0px 50px 100px -20px, rgb(95, 3, 3) 0px 30px 60px -30px, rgb(86, 3, 3) 0px -2px 6px 0px inset;
+}
+
+#top-Text-id{
+    margin-top: 10px;
+    text-align: center;
+}
+.hide-rid{
+    visibility: hidden;
+}
+
+.edit,.delete,.cancel{
+    width:99%;
+}
+.edit{
+    background-color: blue;
+}
+.delete{
+    background-color: red;
+}
+.cancel{
+    background-color:green;
+}
+
+
+
+
+
+/* Add styles to the form container */
+.form-container{
+    max-width: 300px;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.mydiv {
+    border: solid red 2px;
+    height: 600px;
+}
+
+
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.forminputs {
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 14px;
+    box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 254px;
+    font-size: 14px;
+}
+
+#dateinputs {
+    margin-bottom: 20px;
+}
+
+#addingalumni{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /* border:solid yellow 2px; */
+    width: 72%;
+    box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+    font-size: large;
+    font-weight: bolder;
+}
+#addingalumni:hover{
+    color:blue;
+}
+
+#myForm{
+    border:solid green 2px;
+    justify-content: center;
+}
+
+
+
+
+
+/* ================================2nd part of the adding alumni========================================== */
+#useridandpassword{
+    color:white;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    background-color: rgb(133, 5, 5);
+    height: 190px;
+    width: 350px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: rgb(78, 2, 2) 0px 50px 100px -20px, rgb(95, 3, 3) 0px 30px 60px -30px, rgb(86, 3, 3) 0px -2px 6px 0px inset;
+}
+
+
+#addingalumnimain{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /* border:solid yellow 2px; */
+    width: 72%;
+    box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+    font-size: large;
+    font-weight: bolder;
+}
+#addingalumnimain:hover{
+    color:blue;
+}
+
+/*==================================================end============================================*/
+
+
+
+
+
+
+
+.company-div {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 90%;
+    height: 70vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+/* ==================================================================footer======================================= */
+.add-company-btn{
+    height:70vw;
+    display: block;
+    height: 100%;
+    background-color: brown;
+    box-shadow: rgb(78, 2, 2) 0px 50px 100px -20px, rgb(95, 3, 3) 0px 30px 60px -30px, rgb(86, 3, 3) 0px -2px 6px 0px inset;
+}
+.company-btn{
+    height: fit-content;
+    color:#fff;
+    
+}
+
+.my-row1{
+    height:100%;
+    width:100%;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+    display: inline-block;
+}
+.imgone{
+    height: 30px;
+    width:30px;
+}
+
+#secondfooter{
+    padding-left: 1px;
+    padding-right: 30px;
+    
+}
+.footerpara{
+
+    display:inline-block;
+    font-size:100%;
+    color: #FFFFFF;
+    margin-bottom:1%;
+}
+
+#footercontact{
+    color: #FFFFFF;
+    margin: 1%;
+    margin-left: 2%;
+    font-size:170%;
+    font-weight: bolder;
+
+}
+.facebookimg{
+    color:#FFFFFF;
+    display: inline-block;
+    height:100%;
+    width: 100%;
+    margin: 1%;
+    margin-right:5%;
+    border-radius: 50%;
+    
+}
+
+.facebookimg:hover{
+   border: 1px solid whitesmoke;
+}
+    /* second footer decoration started  is here */
+
+#secondfooter{
+    /* border: solid 3px gold; */
+    display: flex;
+}
+
+.footerimage{
+    height:40px;
+    width:40px;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+    
+    
+    .firstfooter1{
+        width: fit-content;
+        /* border:solid wheat 2px; */
+    }
+    .firstfooter{
+        min-width:390px;
+        margin-left: 6px;
+    }
+    .firstfooter2{
+        min-width:390px;
+        margin-left: 6px;
+    }
+.firstfooter1{
+    display: block;
+    float: left;
+}
+.firstfooter2{
+    float: left;
+}
+
+#secondfooter{
+    /* border:solid greenyellow 2px; */
+    height: fit-content;
+    width: fit-content;
+    min-width:390px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+
+}
+/*====================================last mixed up code =================*/
+
+#save-alumni-id,#cancel-alumni-id{
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding-top: 3px;
+    padding-bottom: 3px;  
+    font-size: large;
+    font-weight: bolder;
+    width:49%;
+    display: block; 
+}
+
+#cancel-alumni-id:hover{
+    border:solid white 1px;
+}
+
+#save-alumni-id:hover{
+    border:solid white 1px;
+}
+#save-alumni-id{
+    float: left;
+    margin-right:4px; 
+    background-color: green;
+    color:white;
+}
+
+#cancel-alumni-id{   
+    float: rigth;
+    background-color: red;
+    color:white;
+}
+
+#save-cancel-btn-div-di{
+    height: 35px;
+    width:71%;
+}
+
+
+
+

@@ -1,0 +1,490 @@
+
+
+#temp{
+   height: 5vw;
+   width: 100%;
+   background-color: green;
+}
+/* heading styling is here */
+header#headerid{
+    background-color:brown;
+    position:sticky;
+    top:0px;
+    width: 100%;
+    /* border: solid yellow 3px; */
+    display: flex;
+}
+
+
+
+
+#topnavigation{
+      height: 100px;
+      width: 100%;   
+      display: block;
+}
+#firstheader{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+   
+}
+
+#imgdivheader{
+    height:100%;
+    width: 100%;
+    display: inline-block;
+    
+}
+#collegename:hover{
+    border-radius:50px;
+    border:5px #FFFFFF solid;
+
+}
+#iesbhopalid{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+img#imgdivimage{
+    height:95%;
+    width: 95%;
+    border-radius: 10px;
+}
+img#imgdivimage:hover{
+    box-shadow: 3px 2px 2px wheat;
+}
+
+#alluminailistmain{
+      /* border:solid red 2px; */
+      position: relative;
+}
+div#greetings{
+    display: inline-block;
+    height: 100%;
+    width:100%;
+}
+#slideimage{
+    padding:2px;
+    color:whitesmoke;
+    font-size: 40px;
+    border-radius: 5px;
+}
+
+#greetingsmain{
+    height: 45%;
+    width:60%;
+    float: right;
+    display: inline;
+}
+/* #greetingslist{
+    display:inline-block;
+    height: 90%;
+    width: 100%;
+    font-size: large;
+    margin-top: auto;
+} */
+#navination{
+    box-sizing: border-box;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color: aquas;
+    margin-top: 4px;
+   
+}
+nav ul{
+    float:right;
+}
+nav ul li{
+    display: inline;
+    line-height: 10px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: large;
+    text-decoration: none;
+    margin-right:3vw;
+    padding: 5px 10px;
+    border:white 2px solid;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+}
+/* .greetingslistclass{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 1%;
+    margin-right: 2vw;
+    border:solid 2px #FFFFFF;
+    border-radius: 15px;
+} */
+#aluminilistmargue{
+    display:inline-block;
+    width: 100%;
+    position: relative;
+}
+#iescollegealuminilist{
+    margin-top:100px;
+    color:black;
+    background-color:chartreuse;
+    font-size:30px;
+    padding:10px;
+    font-weight: bolder;
+    box-shadow:4px 4px 4px 4px;
+
+}
+/* .greetingslistclass:hover{
+    background-color: #FFFFFF;
+    color:brown;
+} */
+#mainid{
+    height:25%;
+    width: 100%;
+}
+#mainmainid{
+    /* border: solid 3px red; */
+    display: inline-block;
+}
+img#image{
+    margin: 0 atu;
+    transition: 0.3s;
+    height:700px;
+    width: 100%;
+}
+#mainh1id{
+    color: chocolate;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.alu{
+    height:auto;
+    width:20vw;
+    border:groove 1px black;
+    margin: 30px;
+    float: right;
+    border-radius:10px;
+}
+.alu:hover{
+    background-color:#FFFFFF;
+    border: 1px outset black;
+    box-shadow:0px 4px 4px 0px;
+}
+ .photodiv{
+   
+    /* border-radius: 50%; */
+    height: 6vw;
+    width: 6vw;
+    /* border:solid red 3px; */
+    margin: auto;
+    justify-content:center;
+    margin-top: 13%;
+}
+#center{
+    text-align: center;
+}
+.divone{
+    display: flex;
+    /* border: greenyellow solid 3px; */
+}
+#allist{
+    margin: auto;
+}
+
+.iddiv{
+    /* border: solid green 2px; */
+    width: 90%;
+    height:50%;
+    margin: 13px;
+    /* border:solid blue 2px; */
+}
+.divimage{
+   height:6vw;
+   width:6vw;
+   border-radius: 50%;
+   margin: auto;
+   justify-content: center;
+   /* border: solid blue 3px; */
+}
+
+.photodivmain{
+    height: 7vw;
+    width: 100%;
+    border: solid black 1px;
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    border-radius:8px 8px 0px 0px;
+    
+}
+
+div#aluminailist{
+    height: 50px;
+    width: 100%;
+
+}
+#marqueallist{
+    font-size: large;
+    color: black;
+}
+
+#name{
+    font-weight: bolder;
+    padding:5%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inputa{
+    margin-left: 10%;
+}
+#possition{
+    text-align: center;
+}
+.postionshivam{
+    text-align: center;
+}
+
+span{
+    color:blue;
+    font-weight: bold;
+}
+.linkedinlink{
+    height:25%;
+    width: 60%;
+    border-radius:10px;
+    
+}
+.linkedinlink:hover{
+   border: solid 1px blue;
+}
+#batch{
+ text-align: center;   
+}
+
+#listid{
+    display: inline-block;
+    box-shadow:0px 4px 4px 0px;
+}
+#slideimagejob{
+    margin-top: 15px;
+    padding:5px;
+    font-weight: bolder;
+    font-size: 30px;
+    border:solid red 5px;
+    background-color: chartreuse;
+    color:darkblue;
+    box-shadow:0px 4px 4px 0px;
+}
+#aluminilistmargue{
+    display: inline-block;
+}
+
+
+
+/* jobs code */
+#jobscode{
+    display: inline-block;
+    /* border:solid red 4px; */
+    margin: 3vw;
+
+}
+.job{
+    height: 500px;
+    width: 400px;
+    /* border:solid red 5px; */
+}
+
+.all{
+    float:left;
+    /* border:solid black 1px; */
+    height: 13vw;
+    width: 18vw;
+    border-radius: 1vw;
+}
+.all:hover{
+    box-shadow:0px 2vw 2vw 0px;
+}
+.img{
+    height: 13vw;
+    width: 17vw;
+   
+}
+.imgtag{
+    height:10vw;
+    width: 15vw;
+    border-radius: 10px;
+    margin:2vw;
+}
+
+
+
+
+
+
+
+/* footer styling starts form here */
+
+#jobslink{
+    display: block;
+}
+#footerid{
+    /* margin-top: 1700px; */
+    display: inline-block;
+    /* border:solid red 4px; */
+    background-color:brown;
+    border: 3ps;
+}
+
+.foters{
+   
+    height: 199px;
+    width: 32%;
+    float: right;
+    margin: 5px;
+}
+#firstfooter{
+    /* border: solid greenyellow 3px ; */
+    margin-top: auto;
+}
+
+.firstfooter1{
+    /* border: solid blue 2px ; */
+    margin-bottom: auto;
+}
+
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+    display: inline-block;
+}
+.imgone{
+    height: 7%;
+    width:7%;
+}
+
+#secondfooter{
+    padding-left: 1px;
+    padding-right: 30px;
+    
+}
+.footerpara{
+
+    display:inline-block;
+    font-size:100%;
+    color: #FFFFFF;
+    margin-bottom:1%;
+}
+
+#footercontact{
+    color: #FFFFFF;
+    margin: 1%;
+    margin-left: 2%;
+    font-size:170%;
+    font-weight: bolder;
+
+}
+.facebookimg{
+    color:#FFFFFF;
+    display: inline-block;
+    height:99%;
+    width: 97%;
+    margin: 1%;
+    margin-right:5%;
+    border-radius: 50%;
+}
+
+.facebookimg:hover{
+   border: 2px solid whitesmoke;
+}
+    /* second footer decoration started  is here */
+
+#secondfooter{
+    /* border: solid 3px gold; */
+    display: flex;
+    margin-top: 1%;
+}
+
+.footerimage{
+    height:3vw;
+    width: 11%;
+    /* border: solid 2px blue; */
+    display: flex;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+  #h2secondfooter{
+    color: #FFFFFF;
+    margin: 5px;
+    
+  }
+
+  #exploreiesid{
+    
+    margin: 2px;
+    margin-left: 60px;
+    color:white;
+  }
+
+  .exploreieseda{
+    color:wheat;
+    font-weight: bold;
+    font-size:large;
+    padding:10px;
+    margin: 10px;
+    text-decoration:none;
+
+  }
+  .exploreieseda:hover{
+    color:aqua;
+    border-radius:50px;
+    color:brown;
+    background-color:#FFFFFF;
+    padding:1px;
+}
+      /* second footer decoration  end is here */
+  
+
+/* body work is here. */
+
+#body{
+    background-color:skygr;
+}
+#footer{
+    display:inline-block;
+}
+
+
+
+/* ====================================================Responsiveness======================================================================= */
+
+
+@media screen and (max-width:400px) {
+    #navination{
+        margin-top: -100px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    #navination{
+        margin-top: -100px;
+    }
+  }
